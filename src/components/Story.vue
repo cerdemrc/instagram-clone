@@ -47,6 +47,12 @@ export default {};
       flex-flow: column;
       align-items: center;
       margin: 0 -50px;
+      & :active {
+        opacity: 0.6;
+      }
+      &:hover {
+        cursor: pointer;
+      }
       & span {
         margin-top: 10px;
       }
@@ -57,10 +63,6 @@ export default {};
         border: 2.5px solid transparent;
         background: linear-gradient(220deg, #ff0077, #ff9100);
         font-size: 4rem;
-
-        &:hover {
-          cursor: pointer;
-        }
       }
     }
   }

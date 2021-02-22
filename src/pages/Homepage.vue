@@ -5,7 +5,8 @@
     </div>
     <div class="right">
       <div class="user">
-        <a href="#"><i class="fas fa-user-circle"></i></a>
+        <!-- <a href="#"><i class="fas fa-user-circle"></i></a> -->
+        <img src="../assets/images/p2.jpg" alt="User" />
         <div class="user-info">
           <h1>cerdemrc</h1>
           <h2>Ceren</h2>
@@ -41,8 +42,10 @@ export default {
     & .user {
       display: flex;
       align-items: center;
-      & i {
-        font-size: 3.5rem;
+      width: 70%;
+      & img {
+        width: 25%;
+        height: auto;
         margin: 0 20px;
       }
       & h1 {
@@ -56,6 +59,7 @@ export default {
     }
     & .link {
       color: $blue;
+      width: 20%;
       font-weight: 600;
       font-size: 0.72rem;
       text-decoration: none;

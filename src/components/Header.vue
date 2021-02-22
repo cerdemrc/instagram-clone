@@ -31,7 +31,7 @@
             <a href="#"><i class="far fa-heart"></i></a>
           </li>
           <li class="user">
-            <a href="#"><i class="fas fa-user-circle"></i></a>
+            <a href="#"><img src="../assets/images/p2.jpg" /></a>
           </li>
         </ul>
       </div>
@@ -97,6 +97,10 @@ export default {
               opacity: 0.4;
             }
           }
+        }
+        & .user img {
+          width: 25px;
+          height: auto;
         }
       }
     }
