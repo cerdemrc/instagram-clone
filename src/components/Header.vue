@@ -52,6 +52,11 @@ export default {
 <style lang="scss" scoped>
 .header {
   border-bottom: 1px solid rgb(216, 216, 216);
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   & .navbar {
     display: flex;
     align-items: center;
@@ -101,6 +106,33 @@ export default {
         & .user img {
           width: 25px;
           height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    & .navbar {
+      & .logo {
+        width: 90px;
+        margin-left: 10px;
+      }
+      & .search input {
+        display: none;
+      }
+      & .nav {
+        & .nav-items {
+          display: flex;
+          align-items: center;
+          font-size: 1.3rem;
+          & li {
+            margin: 0 6px;
+          }
+          & .user img {
+            width: 21px;
+          }
         }
       }
     }

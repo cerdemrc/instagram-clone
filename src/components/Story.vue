@@ -19,6 +19,9 @@
       <li>
         <img src="../assets/images/p6.jpg" alt="User" /><span>zaytung</span>
       </li>
+      <li>
+        <img src="../assets/images/p6.jpg" alt="User" /><span>zaytung</span>
+      </li>
     </ul>
   </div>
 </template>
@@ -35,6 +38,9 @@ export default {};
   justify-content: center;
   align-items: center;
   padding: 10px;
+  // overflow: auto;
+  // white-space: nowrap;
+
   & ul {
     list-style: none;
     display: flex;
@@ -61,9 +67,19 @@ export default {};
         height: auto;
         border-radius: 100%;
         border: 2.5px solid transparent;
-        background: linear-gradient(220deg, #ff0077, #ff9100);
+        background: linear-gradient(220deg, $pink, $yellow);
         font-size: 4rem;
       }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .stories {
+    border: none;
+    padding: 10px;
+
+    & ul li {
+      margin: 0 -30px;
     }
   }
 }

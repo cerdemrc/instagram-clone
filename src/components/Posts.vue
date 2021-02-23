@@ -88,6 +88,9 @@ export default {};
         & img {
           width: 20%;
           height: auto;
+          border-radius: 100%;
+          border: 2.5px solid transparent;
+          background: linear-gradient(220deg, $pink, $yellow);
         }
         & h1 {
           font-size: 0.8rem;
@@ -137,6 +140,18 @@ export default {};
         & span {
           font-family: Proxima;
           margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .posts {
+    & .post {
+      border: none;
+      & .post-content {
+        & .likes {
+          font-size: 0.55rem;
         }
       }
     }

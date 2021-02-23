@@ -42,7 +42,12 @@ export default {
   & .hero-container {
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .container .hero-container {
+    margin-top: 80px;
   }
 }
 </style>
