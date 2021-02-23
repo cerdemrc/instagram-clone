@@ -32,8 +32,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  // font-family: "Poppins", sans-serif;
-  font-family: Proxima;
+  font-family: Proxima-Thin;
 }
 
 .container {
@@ -43,7 +42,7 @@ export default {
   & .hero-container {
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
   }
 }
 </style>
