@@ -170,10 +170,10 @@ export default {
         background: white;
 
         & .logo {
-          width: 80px;
+          width: 90px;
         }
         & a {
-          font-size: 1.2rem;
+          font-size: 1.4rem;
         }
       }
       & .mobile-bottom {
@@ -193,7 +193,7 @@ export default {
           & li {
             list-style: none;
             & a {
-              font-size: 1.2rem;
+              font-size: 1.4rem;
             }
             & .user img {
               width: 20px;
