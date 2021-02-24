@@ -188,7 +188,8 @@ export default {
           display: flex;
           width: 100%;
           align-items: center;
-          justify-content: space-evenly;
+          justify-content: space-between;
+          margin: 0 20px;
           & li {
             list-style: none;
             & a {
