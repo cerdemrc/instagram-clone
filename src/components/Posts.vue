@@ -148,6 +148,7 @@ export default {};
     & .post {
       border: none;
       & .post-content {
+        padding: 10px 5px;
         & .likes {
           font-size: 0.55rem;
         }

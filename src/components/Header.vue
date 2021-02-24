@@ -9,12 +9,16 @@
           src="../assets/images/logo.png"
           alt="Logo"
         />
-        <a class="direct"><i class="fab fa-facebook-messenger"></i></a>
+        <router-link to="/direct" tag="a"
+          ><i class="fab fa-facebook-messenger"></i
+        ></router-link>
       </div>
       <div class="mobile-bottom">
         <ul>
           <li>
-            <a><i class="fas fa-home"></i></a>
+            <router-link to="/" tag="a"
+              ><i class="fas fa-home"></i
+            ></router-link>
           </li>
           <li>
             <a><i class="fas fa-search"></i></a>
@@ -174,6 +178,7 @@ export default {
         }
         & a {
           font-size: 1.4rem;
+          color: black;
         }
       }
       & .mobile-bottom {
@@ -194,6 +199,7 @@ export default {
             list-style: none;
             & a {
               font-size: 1.4rem;
+              color: black;
             }
             & .user img {
               width: 20px;
