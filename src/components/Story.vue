@@ -2,26 +2,19 @@
   <div class="stories">
     <ul>
       <li>
-        <img src="../assets/images/p1.jpg" alt="User" /><span>satrayn</span>
+        <img src="../assets/images/p1.jpg" alt="User" /><span>harvey</span>
       </li>
       <li>
-        <img src="../assets/images/p2.jpg" alt="User" /><span>rssllkm</span>
+        <img src="../assets/images/p2.jpg" alt="User" /><span>ceren</span>
       </li>
       <li>
-        <img src="../assets/images/p3.jpg" alt="User" /><span>9geek</span>
+        <img src="../assets/images/p3.jpg" alt="User" /><span>laura</span>
       </li>
+      <li><img src="../assets/images/p4.jpg" alt="User" /><span>josh</span></li>
       <li>
-        <img src="../assets/images/p4.jpg" alt="User" /><span>halkekmag</span>
+        <img src="../assets/images/p5.jpg" alt="User" /><span>rianne</span>
       </li>
-      <li>
-        <img src="../assets/images/p5.jpg" alt="User" /><span>riannemejer</span>
-      </li>
-      <li>
-        <img src="../assets/images/p6.jpg" alt="User" /><span>zaytung</span>
-      </li>
-      <li>
-        <img src="../assets/images/p6.jpg" alt="User" /><span>zaytung</span>
-      </li>
+      <li><img src="../assets/images/p6.jpg" alt="User" /><span>roy</span></li>
     </ul>
   </div>
 </template>
@@ -35,7 +28,7 @@ export default {};
 .stories {
   border: 1px solid $bg-border;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 10px;
 

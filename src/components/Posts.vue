@@ -4,7 +4,7 @@
       <div class="user">
         <div class="user-info">
           <a href="#"><img src="../assets/images/p2.jpg" /></a>
-          <h1>cerdemrc</h1>
+          <h1>ceren</h1>
         </div>
         <a href="#"><i class="fas fa-ellipsis-h"></i></a>
       </div>
@@ -26,22 +26,20 @@
           <h2>1.345 beğenme</h2>
         </div>
         <div class="commend">
-          <h3>
-            <span>cerdemrc</span>Even for me life had its gleams of sunshine
-          </h3>
+          <h3><span>ceren</span>Even for me life had its gleams of sunshine</h3>
         </div>
       </div>
     </div>
     <div class="post">
       <div class="user">
         <div class="user-info">
-          <a href="#"><img src="../assets/images/p2.jpg" /></a>
-          <h1>cerdemrc</h1>
+          <a href="#"><img src="../assets/images/p1.jpg" /></a>
+          <h1>harvey</h1>
         </div>
         <a href="#"><i class="fas fa-ellipsis-h"></i></a>
       </div>
       <div class="image">
-        <img src="../assets/images/post1.jpg" alt="Post" />
+        <img src="../assets/images/post2.jpg" alt="Post" />
       </div>
       <div class="post-content">
         <div class="icons">
@@ -55,11 +53,11 @@
           </div>
         </div>
         <div class="likes">
-          <h2>1.345 beğenme</h2>
+          <h2>23.653 beğenme</h2>
         </div>
         <div class="commend">
           <h3>
-            <span>cerdemrc</span>Even for me life had its gleams of sunshine
+            <span>harvey</span>
           </h3>
         </div>
       </div>
