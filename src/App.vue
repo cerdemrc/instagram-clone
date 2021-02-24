@@ -47,7 +47,7 @@ export default {
 }
 @media screen and (max-width: 650px) {
   .container .hero-container {
-    margin-top: 80px;
+    margin-top: 50px;
   }
 }
 </style>

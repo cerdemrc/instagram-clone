@@ -38,8 +38,6 @@ export default {};
   justify-content: center;
   align-items: center;
   padding: 10px;
-  // overflow: auto;
-  // white-space: nowrap;
 
   & ul {
     list-style: none;
