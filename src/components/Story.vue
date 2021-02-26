@@ -31,6 +31,8 @@ export default {};
   justify-content: flex-start;
   align-items: center;
   padding: 10px;
+  margin-top: 20px;
+  background: white;
 
   & ul {
     list-style: none;

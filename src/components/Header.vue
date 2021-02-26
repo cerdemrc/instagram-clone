@@ -143,6 +143,7 @@ export default {
         padding: 7px;
         border-radius: 3px;
         opacity: 0.6;
+        background: $gray;
 
         &::placeholder {
           text-align: center;
@@ -168,6 +169,9 @@ export default {
             }
           }
           & .user {
+            &:hover {
+              cursor: pointer;
+            }
             & .user-dropdown {
               & img {
                 width: 25px;

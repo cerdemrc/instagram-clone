@@ -19,6 +19,7 @@ export default {
 </script>
 
 <style lang="scss" >
+@import "./style/root.scss";
 @font-face {
   font-family: Proxima;
   src: url("assets/font/proxima.otf");
@@ -34,15 +35,17 @@ export default {
   box-sizing: border-box;
   font-family: Proxima-Thin;
 }
+#app {
+  background: $gray;
+  .container {
+    height: 100%;
+    width: 100%;
 
-.container {
-  height: 100%;
-  width: 100%;
-
-  & .hero-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 100px;
+    & .hero-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      margin-top: 60px;
+    }
   }
 }
 
