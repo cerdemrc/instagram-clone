@@ -65,7 +65,19 @@
               <a href="#"><i class="far fa-heart"></i></a>
             </li>
             <li class="user">
-              <a href="#"><img src="../assets/images/p2.jpg" /></a>
+              <div class="user-dropdown">
+                <a @click="addClass"><img src="../assets/images/p2.jpg" /></a>
+                <div class="dropdown-content" v-if="showDropdown">
+                  <ul>
+                    <li><i class="far fa-user-circle"></i>Profil</li>
+                    <li><i class="far fa-bookmark"></i> Kaydedildi</li>
+                    <li><i class="fas fa-cog"></i>Ayarlar</li>
+                    <li><i class="fas fa-sync-alt"></i>Hesap Değiştir</li>
+                    <hr />
+                    <li>Çıkış Yap</li>
+                  </ul>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -76,15 +88,24 @@
 
 <script>
 export default {
+  data() {
+    return {
+      showDropdown: false,
+    };
+  },
   methods: {
     goHome() {
       this.$router.push("/");
+    },
+    addClass() {
+      this.showDropdown = !this.showDropdown;
     },
   },
 };
 </script>
 
 <style lang="scss" scoped>
+@import "../style/root.scss";
 .header {
   border-bottom: 1px solid rgb(216, 216, 216);
   background: white;
@@ -146,14 +167,50 @@ export default {
               }
             }
           }
-          & .user img {
-            width: 25px;
-            height: auto;
+          & .user {
+            & .user-dropdown {
+              & img {
+                width: 25px;
+                height: auto;
+              }
+              & .dropdown-content {
+                position: absolute;
+                right: 200px;
+                min-width: 200px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                padding: 12px 16px;
+                z-index: 1;
+                margin-top: 5px;
+                background: white;
+                & ul {
+                  list-style: none;
+                  font-size: 0.9rem;
+                  letter-spacing: 0.5px;
+                  & li {
+                    padding: 10px;
+                    &:hover {
+                      background: $gray;
+                    }
+                    & i {
+                      font-size: 1.2rem;
+                      margin-right: 10px;
+                    }
+                  }
+                  & :hover {
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
           }
         }
       }
     }
   }
+}
+
+.dropdown-active {
+  display: block;
 }
 
 @media screen and (max-width: 650px) {
